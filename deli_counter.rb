@@ -25,7 +25,7 @@ def now_serving(line)
   else 
     line.each do |name|
     puts "Currently serving #{name}." 
+  end 
     line.shift 
-end 
 end 
 end  
