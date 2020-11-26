@@ -25,6 +25,4 @@ def now_serving(line)
     line.each do |name|
     puts "Currently serving #{name}." 
     line.shift 
-    end 
-  end  
 end 
