@@ -20,12 +20,11 @@ end
  
  
 def now_serving(line) 
-  if line.size == 0 
+  line.size == 0 
     puts "There is nobody waiting to be served!"
-  else
     line.each do |name|
     puts "Currently serving #{name}." 
-    #line.shift 
+    line.shift 
     end 
   end  
 end  
