@@ -23,10 +23,10 @@ def now_serving(line)
   if line.size == 0 
     puts "There is nobody waiting to be served!"
   else
-    other_deli = ["Logan", "Avi" ,"Spencer"]
-    other_deli.each do |name|
+    line = ["Logan", "Avi" ,"Spencer"]
+    line.each do |name|
     puts "Currently serving #{name}." 
-    other_deli.shift 
+    line.shift 
     end  
   end 
 end 
