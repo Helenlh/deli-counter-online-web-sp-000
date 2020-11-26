@@ -29,4 +29,3 @@ def now_serving(line)
 end 
     line.shift 
 end 
-end  
